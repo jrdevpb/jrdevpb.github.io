@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Júnior Marques</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Pacifico|Roboto:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="shortcut icon" href="images/eu.png" />
+
+</head>
+<body>
+	<section class="topo">
+		<div class="center">
+			<header>
+				<ul class="menu-desktop">
+					<li><a href="./">Home</a></li>
+					<li><a href="#sobre">Sobre mim</a></li>
+					<li><a href="#contato">Contato</a></li>
+					<li><a href="#portifolio">Portifólio</a></li>
+				</ul>
+				<div class="menu-mobile">
+					<i class="fas fa-align-right"></i>
+					<ul>
+						<li><a href="./">Home</a></li>
+						<li><a href="#sobre">Sobre mim</a></li>
+						<li><a href="#contato">Contato</a></li>
+						<li><a href="#portifolio">Portifólio</a></li>
+					</ul>
+				</div><!--menu-mobile-->
+			</header><!--header-->
+			<div class="clear"></div>
+		</div><!--center-->
+		
+		<div class="center logo">
+			<span>Jr. Marques</span>
+			<br/>
+			<small>Graduado em Sistemas de Informação</small>
+			<br/>
+			<small>FRONT-END & BACK-END</small>
+			<br/>
+			<div>
+				<a href="https://www.instagram.com/jr.marques_/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://github.com/juniormarques100" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/luiz-marques-júnior-marques-3109a854" target="_blank"><i class="fab fa-linkedin"></i></a>
+			</div>
+		</div><!--center-->
+	</section>
+
+	<section id="sobre" class="sobre">
+		<div class="center">
+			<div class="circulo-page"><a href="#sobre"><i class="fas fa-chevron-down"></i></a></div>
+			<span>Sobre mim</span>
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-3 imagem">
+					<img src="images/eu.jpg">
+				</div>
+				<div class="col-sm-7">
+					<p>Olá mundo! Sou Júnior Marques, graduado em Sistemas de Informação. Sempre fui curioso em saber como os programas, sistemas, sites, jogos e aplicativos eram desenvolvidos, até que consegui ingressar no curso e começar a compreender toda a mágica que existe por trás de tudo que utilizamos em nosso computador.</p>
+					<p>Atualmente estudo e crio com algumas tecnologias de desenvolvimento web, mobile e desktop, tanto front-end, como back-end.</p>
+				</div>
+				<div class="col-sm-1"></div>
+			</div><!--row-->
+		</div><!--center-->
+	</section>
+
+	<section id="contato" class="contato">
+		<div class="center">
+			<h3>Formulário de Contato</h3>
+			<div class="row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<form method="POST" action="email.php">
+						<div class="form-group">
+							<input class="form-control" type="text" name="nome" placeholder="Nome">
+							<input class="form-control" type="email" name="email" placeholder="E-mail">
+							<textarea class="form-control" id="textarea-contato" class="field" name="message" placeholder="Digite sua mensagem aqui."></textarea>
+						</div>
+						<input class="btn btn-dark enviar" type="submit" value="Enviar" />
+					</form><!--form-->
+				</div><!--col-sm-6-->
+				<div class="col-sm-3"></div>
+			</div><!--row-->
+		</div><!--center-->
+	</section>
+
+	<section id="portifolio" class="portifolio">
+		<div class="center">
+			<span><h3>Portifólio</h3></span>
+				<div class="row mb-5">
+					<div class="col-sm-4">
+						<div class="card">
+							<img class="card-img-top" src="images/site.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Site Pessoal</h4>
+								<h6 class="card-subtitle md-2 text-muted">site pessoal</h6>
+								<p class="card-text">Desenvolvido por mim para apresentar meus projetos.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="card">
+							<div id="carouselSite" class="carousel slide" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="carouselSite" data-slide-to="0" class="active"></li>
+									<li data-target="carouselSite" data-slide-to="1" class="active"></li>
+									<li data-target="carouselSite" data-slide-to="2" class="active"></li>
+									<li data-target="carouselSite" data-slide-to="3" class="active"></li>
+									<li data-target="carouselSite" data-slide-to="4" class="active"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="card-img-top d-block" src="images/sislac1.jpg">
+									</div>
+									<div class="carousel-item">
+										<img class="card-img-top d-block" src="images/sislac2.jpg">
+									</div>
+									<div class="carousel-item">
+										<img class="card-img-top d-block" src="images/sislac3.jpg">
+									</div>
+
+									<div class="carousel-item">
+										<img class="card-img-top d-block" src="images/sislac4.jpg">
+									</div>
+
+									<div class="carousel-item">
+										<img class="card-img-top d-block" src="images/sislac5.jpg">
+									</div>
+								</div><!--carousel-inner-->
+
+								<a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+									<span class="sr-only">Anetior</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+									<span class="sr-only">Avançar</span>
+								</a>
+							</div><!--carousel-->
+							<div class="card-body">
+								<h4 class="card-title">SisLAC</h4>
+								<h6 class="card-subtitle md-2 text-muted">Sistema Laboratorial de Análises Clínicas.</h6>
+								<p class="card-text">Gerência a emissão de exames.</p>
+							</div>
+						</div><!--card-->
+					</div><!--col-sm-4-->
+
+					<div class="col-sm-4">
+						<div class="card">
+
+							<div id="carouselSite2" class="carousel slide" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="carouselSite2" data-slide-to="0" class="active"></li>
+									<li data-target="carouselSite2" data-slide-to="1" class="active"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="card-img-top d-block" src="images/sorteio1.jpg">
+									</div>
+									<div class="carousel-item">
+										<img class="card-img-top d-block" src="images/sorteio2.jpg">
+									</div>
+								</div><!--carousel-inner-->
+
+								<a class="carousel-control-prev" href="#carouselSite2" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+									<span class="sr-only">Anetior</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselSite2" role="button" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+									<span class="sr-only">Avançar</span>
+								</a>
+							</div><!--carousel-->
+							<div class="card-body">
+								<h4 class="card-title">Sorteio</h4>
+								<h6 class="card-subtitle md-2 text-muted">Aplicativo web</h6>
+								<p class="card-text">Realização sorteios para a formação de duplas para o volei de praia.</p>
+							</div>
+						</div><!--card-->
+					</div><!--col-sm-4-->
+
+					<div class="col-sm-4">
+						<div class="card">
+							<img class="card-img-top" src="images/jokenpo.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Jogo - Jokenpô</h4>
+								<h6 class="card-subtitle md-2 text-muted">Jogo em 2D</h6>
+								<p class="card-text">Criado para praticar os conceitos de Javascript/HTML/CSS.</p>
+							</div>
+							<div class="card-body">
+								<a href="/jokenpo" class="card-link">Jogar	</a>
+							</div>
+						</div>
+					</div>
+				</div><!--row-->
+
+				<div class="row">
+					
+				</div>
+		</div><!--center-->
+	</section>
+
+	<footer class="rodape">
+		<div class="center">
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">Copyright - Todos os direitos reservados</div>
+				<div class="col-sm-4">
+					<a href="https://www.instagram.com/jr.marques_/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://github.com/juniormarques100" target="_blank"><i class="fab fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/luiz-marques-júnior-marques-3109a854" target="_blank"><i class="fab fa-linkedin"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script>
+		//Menu Responsivo
+		$('.menu-mobile i').click(function() {
+			$('.menu-mobile').find('ul').slideToggle();
+		})
+	</script>
+</body>
+</html>
